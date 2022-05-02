@@ -1,0 +1,20 @@
+#pragma once
+
+enum class eCollisionCheckGroup
+{
+	PLAYER,
+	MAP,
+	ENEMY,
+	ROLL_RIGHT,
+	ROLL_LEFT,
+	ROLL_UP,
+	JUMP_BOARD,
+	RING,
+	HORIZONTAL_RUN,
+	CURSOR,
+	MONITOR,
+	SPRING,
+	SPIKE,
+	LOCATION,
+	GOAL_POST
+};

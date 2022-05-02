@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level0", "Level0", "{6A49DC3F-DFDD-462D-9874-BAB2F3AF947E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level1", "Level1", "{E577BE68-3248-4AB1-A701-26666F5FC6D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level2", "Level2", "{9458EA72-4C7A-43D8-BF34-5017CE1051E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level3", "Level3", "{4A56CC4C-7640-46AF-9787-474CF1E36E67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSGameEngineBase", "RSGameEngineBase\RSGameEngineBase.vcxproj", "{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSGameEngine", "RSGameEndgine\RSGameEndgine.vcxproj", "{945512E3-6501-4C3D-A1F7-206A576E0B64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSGameLogic", "RSGameLogic\RSGameLogic.vcxproj", "{20F4623A-5938-4FCE-A561-05643F1E0A72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSGameApp", "RSGameApp\RSGameApp.vcxproj", "{92D6910C-054D-4924-9FB7-B40C271E22FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Debug|x64.ActiveCfg = Debug|x64
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Debug|x64.Build.0 = Debug|x64
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Debug|x86.Build.0 = Debug|Win32
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Release|x64.ActiveCfg = Release|x64
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Release|x64.Build.0 = Release|x64
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Release|x86.ActiveCfg = Release|Win32
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44}.Release|x86.Build.0 = Release|Win32
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Debug|x64.ActiveCfg = Debug|x64
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Debug|x64.Build.0 = Debug|x64
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Debug|x86.ActiveCfg = Debug|Win32
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Debug|x86.Build.0 = Debug|Win32
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Release|x64.ActiveCfg = Release|x64
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Release|x64.Build.0 = Release|x64
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Release|x86.ActiveCfg = Release|Win32
+		{945512E3-6501-4C3D-A1F7-206A576E0B64}.Release|x86.Build.0 = Release|Win32
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Debug|x64.ActiveCfg = Debug|x64
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Debug|x64.Build.0 = Debug|x64
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Debug|x86.ActiveCfg = Debug|Win32
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Debug|x86.Build.0 = Debug|Win32
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Release|x64.ActiveCfg = Release|x64
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Release|x64.Build.0 = Release|x64
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Release|x86.ActiveCfg = Release|Win32
+		{20F4623A-5938-4FCE-A561-05643F1E0A72}.Release|x86.Build.0 = Release|Win32
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Debug|x64.ActiveCfg = Debug|x64
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Debug|x64.Build.0 = Debug|x64
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Debug|x86.Build.0 = Debug|Win32
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Release|x64.ActiveCfg = Release|x64
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Release|x64.Build.0 = Release|x64
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Release|x86.ActiveCfg = Release|Win32
+		{92D6910C-054D-4924-9FB7-B40C271E22FC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FE350BC-8EEB-4C2C-B149-9FF06158AD44} = {6A49DC3F-DFDD-462D-9874-BAB2F3AF947E}
+		{945512E3-6501-4C3D-A1F7-206A576E0B64} = {E577BE68-3248-4AB1-A701-26666F5FC6D4}
+		{20F4623A-5938-4FCE-A561-05643F1E0A72} = {9458EA72-4C7A-43D8-BF34-5017CE1051E4}
+		{92D6910C-054D-4924-9FB7-B40C271E22FC} = {4A56CC4C-7640-46AF-9787-474CF1E36E67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7E787A7-E972-4F8A-A1E8-63098AAB350B}
+	EndGlobalSection
+EndGlobal

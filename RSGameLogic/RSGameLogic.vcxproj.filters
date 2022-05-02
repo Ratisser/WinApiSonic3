@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Level">
+      <UniqueIdentifier>{b6a782fa-e270-49cc-827a-312c4deb949c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{144dc065-10d8-4d22-87a9-5bb9eb7f0aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\TitleLevel">
+      <UniqueIdentifier>{69a548c5-3e6c-4ef9-960f-450f4cee615e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel">
+      <UniqueIdentifier>{0ce602b1-07ea-44b2-be25-93af969ed2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Map">
+      <UniqueIdentifier>{39deeb4f-bfc6-46f7-a3f3-6f54ae618047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Player">
+      <UniqueIdentifier>{33679fce-6b4b-4513-8016-e5542307f62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\EditLevel">
+      <UniqueIdentifier>{40cd49d1-f225-4873-9b55-40f1c2ee295e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Constant">
+      <UniqueIdentifier>{62bc2555-42ab-464e-8ec5-cfd6c9457e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Objects">
+      <UniqueIdentifier>{118a9eee-90fa-48b4-b144-f092e24be9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Enemy">
+      <UniqueIdentifier>{edcb5b4d-2a8e-41ad-a5d2-1d09d4c0c69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Location">
+      <UniqueIdentifier>{7b855ec6-47d1-4bfa-a12f-a9a4c3da95de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\UI">
+      <UniqueIdentifier>{71c5645e-026b-46fc-b33a-9535235b0662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect">
+      <UniqueIdentifier>{fdea8e5c-7acc-482f-8f02-82ff31f75487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\EndingLevel">
+      <UniqueIdentifier>{b8ad61ca-ee73-4053-849a-573814b8cfc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TitleLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>Actor\TitleLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RSGameEndgine\eCollisionCheckGroup.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="eCollisionCheckColor.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevelMap.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevelBackground.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BlindMap.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevelSky.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>Actor\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLevelController.h">
+      <Filter>Actor\EditLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="eMonitor.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="ePlayerState.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkill.h">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkillBackface.h">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>Actor\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Wood.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>Actor\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>Actor\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="eDirection.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="eRingState.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBreath.h">
+      <Filter>Actor\PlayLevel\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="eFireBreathState.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="BossArea.h">
+      <Filter>Actor\PlayLevel\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="GoalPost.h">
+      <Filter>Actor\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="eGoalPostState.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="eUIState.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevelUI.h">
+      <Filter>Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevelOpening.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningController.h">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="eOpeningState.h">
+      <Filter>Actor\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScreen.h">
+      <Filter>Actor\EndingLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="StartLocation.h">
+      <Filter>Actor\PlayLevel\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="SonicSeaWave.h">
+      <Filter>Actor\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TitleLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>Actor\TitleLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevelMap.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevelBackground.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BlindMap.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevelSky.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>Actor\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLevelController.cpp">
+      <Filter>Actor\EditLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkill.cpp">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkillBackface.cpp">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor.cpp">
+      <Filter>Actor\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Wood.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>Actor\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>Actor\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBreath.cpp">
+      <Filter>Actor\PlayLevel\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BossArea.cpp">
+      <Filter>Actor\PlayLevel\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="GoalPost.cpp">
+      <Filter>Actor\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevelUI.cpp">
+      <Filter>Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevelOpening.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningController.cpp">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScreen.cpp">
+      <Filter>Actor\EndingLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="StartLocation.cpp">
+      <Filter>Actor\PlayLevel\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="SonicSeaWave.cpp">
+      <Filter>Actor\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

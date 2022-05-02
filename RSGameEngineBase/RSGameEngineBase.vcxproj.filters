@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="RSSoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="RSTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="RSMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RSDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="RSGameFSM.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="RSNameHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="RSSoundPlayer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RSSoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="RSTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="RSMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RSDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="RSGameFSM.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="RSNameHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="RSSoundPlayer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{acc92f32-a0ef-4b8e-84e9-8487249252fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{3ea738e0-5bc6-441d-b530-287e94e7befb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{b8230f89-f9f7-4eab-b785-996e7f54dc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6e03d73a-dc01-47ea-8869-2db7cb31ea44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{05d877b7-b695-4a04-bcc1-7ddcf5a56066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{442e99d2-40f8-4034-a513-17d8bf6136db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

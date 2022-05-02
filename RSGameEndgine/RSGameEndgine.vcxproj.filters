@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="RSLevel.h">
+      <Filter>Level1%28Object%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSActor.h">
+      <Filter>Level1%28Object%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSWindow.h">
+      <Filter>Level0%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSImage.h">
+      <Filter>Level0%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSInput.h">
+      <Filter>Level0%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSRenderer.h">
+      <Filter>Level1%28Object%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSDirectory.h">
+      <Filter>Level0%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSCollision.h">
+      <Filter>Level1%28Object%29</Filter>
+    </ClInclude>
+    <ClInclude Include="eRenderPivot.h">
+      <Filter>Level1%28Object%29\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="eCollisionType.h">
+      <Filter>Level1%28Object%29\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="RSLevelManager.h">
+      <Filter>Level1%28Object%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RSResourceManager.h">
+      <Filter>Level0%28OS%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RSLevel.cpp">
+      <Filter>Level1%28Object%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSActor.cpp">
+      <Filter>Level1%28Object%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSWindow.cpp">
+      <Filter>Level0%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSImage.cpp">
+      <Filter>Level0%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSInput.cpp">
+      <Filter>Level0%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSRenderer.cpp">
+      <Filter>Level1%28Object%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSDirectory.cpp">
+      <Filter>Level0%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSCollision.cpp">
+      <Filter>Level1%28Object%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSLevelManager.cpp">
+      <Filter>Level1%28Object%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RSResourceManager.cpp">
+      <Filter>Level0%28OS%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Level0%28OS%29">
+      <UniqueIdentifier>{8def6c65-1faa-4ea5-b793-453debfcccde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level1%28Object%29">
+      <UniqueIdentifier>{d93c893e-ac31-42e7-894e-b61f9f7b925a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level1%28Object%29\Constant">
+      <UniqueIdentifier>{a5c70cf6-d852-493d-ae92-637e1c3151cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
